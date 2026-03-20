@@ -13,8 +13,8 @@ let gameOver = false;
 
 startBtn.addEventListener("click", () => {
   // e.preventDefault()
-  player1 = document.getElementById("player-1").value;
-  player2 = document.getElementById("player-2").value;
+  player1 = document.getElementById("player1").value;
+  player2 = document.getElementById("player2").value;
 
   if (!player1 || !player2) return alert("Enter both names");
  
