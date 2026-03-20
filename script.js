@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const startBtn=document.getElementById("start")
+const startBtn=document.getElementById("submit")
 const playersDiv =document.getElementById("players")
 const boardDiv =document.getElementById("game")
 const message =document.getElementById("message")
