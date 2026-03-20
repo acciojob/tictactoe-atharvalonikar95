@@ -2,7 +2,7 @@
 const startBtn=document.getElementById("submit")
 const playersDiv =document.getElementById("players")
 const boardDiv =document.getElementById("game")
-const message =document.getElementById("message")
+const message =document.querySelector(".message")
 const cells = document.querySelectorAll(".cell");
 
 let player1 = "";
