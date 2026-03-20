@@ -29,11 +29,11 @@ cells.forEach((cell,index)=>{
 	cell.addEventListener('click',()=>{
 		if(board[index]!=""||gameOver) return 
 		if(currentPlayer==player1){
-			  cell.textContent = "X";
-		      board[index] = "X";
+			  cell.textContent = "x";
+		      board[index] = "x";
 		}else{
-			  cell.textContent = "0";
-		      board[index] = "0";
+			  cell.textContent = "o";
+		      board[index] = "o";
 		}
 		if(checkWinner()){
 			message.textContent = currentPlayer+" congratulations you won!"
